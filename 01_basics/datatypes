@@ -1,0 +1,46 @@
+// Numbers:
+let length = 16;
+let weight = 7.5;
+
+// Strings:
+let color = "Yellow";
+let lastName = "Johnson";
+
+// Booleans
+let x = true;
+let y = false;
+
+// Object:
+const person = {firstName:"John", lastName:"Doe"};
+
+// Array object:
+const cars = ["Saab", "Volvo", "BMW"];
+
+// Date object:
+const date = new Date("2022-03-25");
+
+console.log("length is " + typeof length)
+console.log("Color is " + typeof color)
+console.log("x is " + typeof x)
+console.log("person is " + typeof person)
+console.log("Date is " + typeof date)
+
+// Strings
+
+let text = "saim";
+let result = text.toUpperCase();
+console.log(result);
+console.log(text.length)
+console.log(text.charAt(2))
+console.log(text.indexOf('a'))
+console.log(text.substring(0,2))
+console.log(text.slice(-2,0))
+
+let str = "      Saim      "
+console.log(str.trim());
+
+let rep = "Saim %20"
+console.log(rep.replace("%20", "Qaiser"))
+
+let spt= "My-name-is-saim"
+console.log(spt.split('-'));
