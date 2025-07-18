@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async</title>
+</head>
+<body>
+    <h1>Saim aur Javascript</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    // const sayDate = function(str){
+    //     console.log(str, Date.now());
+    // }
+
+    // const intervalid = setInterval(sayDate,1000,"hi")
+
+    // clearInterval(intervalid)
+//     const str = document.getElementById("start");
+//     let intervalid;
+
+//   const sayDate = function(str) {
+//     console.log(str, Date.now());
+//   };
+
+//   document.getElementById("start").addEventListener("click", function(e) {
+//     e.preventDefault(); // not strictly necessary for a button, but okay to keep
+//     intervalid = setInterval(sayDate, 1000, "hi");
+//   });
+ 
+//   document.getElementById("stop").addEventListener("click", function(e) {
+//     e.preventDefault(); // not strictly necessary for a button, but okay to keep
+//     clearInterval(intervalid)
+//   });
+
+const st = document.getElementById("start")
+const stp = document.getElementById("stop")
+const col = function(cl){
+    body.style.backgroundColor = 'grey';
+}
+stp.addEventListener('click', function(e){
+    e.preventDefault()
+    intervalid = setInterval(col, 1000);
+
+})
+
+</script>
+</html>
